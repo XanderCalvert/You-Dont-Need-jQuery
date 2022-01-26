@@ -334,6 +334,15 @@ function exampleFilter(elem) {
     // Native
     el.setAttribute('foo', 'bar');
     ```
+  + Delete an attribute
+
+    ```js
+    // jQuery
+    $el.removeAttr('foo');
+
+    // Native
+    el.removeAttribute('foo');
+    ```
 
   + Get a `data-` attribute
 
